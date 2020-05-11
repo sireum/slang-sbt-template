@@ -1,0 +1,1 @@
+libraryDependencies += "com.lihaoyi" %% "ammonite-ops" % "2.1.2"
