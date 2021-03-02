@@ -1,6 +1,6 @@
-scalaVersion := "2.13.3" // see https://github.com/sireum/kekinian/blob/master/versions.properties#L2
+scalaVersion := "2.13.5" // see https://github.com/sireum/kekinian/blob/master/versions.properties#L2
 resolvers ++= Seq(Resolver.sonatypeRepo("public"), "jitpack" at "https://jitpack.io")
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.3" % "test" // see https://github.com/sireum/kekinian/blob/master/versions.properties#L4
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.5" % "test" // see https://github.com/sireum/kekinian/blob/master/versions.properties#L4
 libraryDependencies += "org.sireum.kekinian" %% "library" % ghLatestTag("sireum", "kekinian")
 addCompilerPlugin("org.sireum" %% "scalac-plugin" % ghLatestTag("sireum", "scalac-plugin"))
 
